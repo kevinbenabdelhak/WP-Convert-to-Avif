@@ -11,6 +11,8 @@
 
 WP Convert to Avif est un plugin WordPress qui permet de convertir toutes vos images en fichier AVIF facilement grâce aux actions groupées dans les médias. Accédez à une page d'options pratique pour activer la conversion automatique.
 
+[![Voir le tutoriel](https://img.youtube.com/vi/LliT1XBdFMU/maxresdefault.jpg)](https://www.youtube.com/watch?v=LliT1XBdFMU&ab_channel=KevinBenabdelhak)
+
 ## Description
 
 ### WP Convert to Avif - Convertissez vos images en AVIF
