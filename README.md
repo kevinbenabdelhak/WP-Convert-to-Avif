@@ -4,7 +4,7 @@
 **Tags:** AVIF, conversion d'images, SEO, médias  
 **Requires at least:** 5.0  
 **Tested up to:** 6.6.1     
-**Requires PHP:** 7.0  
+**Requires PHP:** 8.1.23 
 **Stable tag:** 1.0  
 **License:** GPLv2 or later  
 **License URI:** [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)  
@@ -41,7 +41,8 @@ WP Convert to Avif est un plugin innovant pour WordPress conçu pour faciliter l
 4. **Configuration :**  
    - Accédez à la nouvelle page sous "Outils" > "WP Convert to Avif" dans votre panneau d'administration.
    - Configurez les options selon vos préférences.
-
+5. **Déboguage :**  
+   - Si vous constatez une erreur lors de la génération ( ou que cela ne change strictement rien ), veuillez vérifier la version PHP de votre serveur : Version PHP 8.1.23 minimum requis
 ## Changelog
 
 ### 1.0
