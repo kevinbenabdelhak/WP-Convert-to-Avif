@@ -55,9 +55,6 @@ WP Convert to Avif est un plugin innovant pour WordPress conçu pour faciliter l
 ### Quelle est la différence entre AVIF et d'autres formats d'image ?
 AVIF est un format d'image moderne qui offre un meilleur taux de compression par rapport aux formats traditionnels comme JPEG et PNG, tout en maintenant une qualité d'image supérieure.
 
-### Puis-je annuler la conversion d'une image une fois réalisée ?
-Une fois qu'une image a été convertie en AVIF, vous pouvez choisir de régénérer une copie de l'original, mais il est conseillé de conserver une sauvegarde de vos images.
-
 ### Quelles sont les limitations de ce plugin ?
 Le plugin prend en charge uniquement les images JPEG, PNG et WebP pour la conversion en AVIF.
 
