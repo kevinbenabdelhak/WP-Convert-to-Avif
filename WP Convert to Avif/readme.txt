@@ -39,10 +39,8 @@ WP Convert to Avif est un plugin innovant pour WordPress conçu pour faciliter l
    - Configurez les options selon vos préférences.
 
 == Changelog ==
-
-
 = 1.1 =
-* Case à cocher conversion automatique après 1 minute ( cette option permet d'éviter des conflits avec d'autres plugins)
+* Ajout conversion après 1min
 
 
 = 1.0 =
