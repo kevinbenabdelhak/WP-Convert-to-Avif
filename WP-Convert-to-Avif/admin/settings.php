@@ -70,10 +70,10 @@ function wpc2a_conversion_timing_render() {
             <?php _e('Instantanée', 'wpc2a'); ?>
         </label>
         <br>
-       <label>
+        <label>
             <input type='radio' name='wpc2a_options[conversion_timing]' value='delayed' <?php checked(isset($options['conversion_timing']) && $options['conversion_timing'] === 'delayed', true); ?>>
             <?php _e('Après 1 minute', 'wpc2a'); ?>
-            <p style="color: #6f6f6f;">⚠️ L'option "Après 1 minute" ne convertit que les fichiers JPG et ne réduit pas le poids des images. Je vous conseille d'utiliser la méthode "instantanée"</p>
+			<p style="color: #6f6f6f;">⚠️ L'option "Après 1 minute" ne convertit que les fichiers JPG et ne réduit pas le poids des images. Je vous conseille d'utiliser la méthode "instantanée"</p>
         </label>
     </fieldset>
     <script>

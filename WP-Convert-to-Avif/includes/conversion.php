@@ -1,11 +1,9 @@
 <?php
-
 if (!defined('ABSPATH')) {
-    exit; 
+    exit;
 }
 
 function wpc2a_convert_to_avif($path, $options, $attachment_id, $is_auto = false) {
-
     $image = @imagecreatefromjpeg($path);
     if (!$image) {
         $image = @imagecreatefrompng($path);
@@ -60,7 +58,21 @@ function wpc2a_convert_to_avif($path, $options, $attachment_id, $is_auto = false
         $old_url,
         $new_url
     ));
+	
+	  // mettre à jour la date de la publication à laquelle l'image est attachée
+    $attachment_post = get_post($attachment_id);
+    $post_id = $attachment_post->post_parent;
 
+    if ($post_id) {
+        $current_time = current_time('mysql');
+        $post_data = array(
+            'ID'                => $post_id,
+            'post_modified'     => $current_time,
+            'post_modified_gmt' => get_gmt_from_date($current_time),
+        );
+
+        wp_update_post($post_data);
+	
     if (!$is_auto && isset($options['auto_redirect']) && $options['auto_redirect']) {
         wpc2a_add_301_redirect($old_url, $new_url);
     }
@@ -71,6 +83,9 @@ function wpc2a_convert_to_avif($path, $options, $attachment_id, $is_auto = false
 
     $attach_data = wp_generate_attachment_metadata($attachment_id, $final_avif_path);
     wp_update_attachment_metadata($attachment_id, $attach_data);
+
+  
+    }
 
     return true;
 }
