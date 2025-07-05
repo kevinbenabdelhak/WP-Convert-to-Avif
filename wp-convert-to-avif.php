@@ -3,7 +3,7 @@
 * Plugin Name: WP Convert to Avif
 * Plugin URI: https://kevin-benabdelhak.fr/plugins/wp-convert-to-avif/
 * Description: WP Convert to Avif est un plugin WordPress qui permet de convertir toutes vos images en fichier avif facilement grâce aux actions groupées dans les médias. Accédez à une page d'option pratique pour activer la conversion auto.
-* Version: 1.1
+* Version: 1.2
 * Author: Kevin BENABDELHAK
 * Author URI: https://kevin-benabdelhak.fr
 * Contributors: kevinbenabdelhak
