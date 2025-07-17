@@ -64,3 +64,7 @@ Le plugin prend en charge uniquement les images JPEG, PNG et WebP pour la conver
 
 ## Support
 Pour le support, veuillez visiter la page de support sur [kevin-benabdelhak.fr/plugins/wp-convert-to-avif](https://kevin-benabdelhak.fr/plugins/wp-convert-to-avif/)
+
+<a href="https://kevin-benabdelhak.fr/soutenir/">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXY0cmdrdnNjcXlxb3hrcG15YmpzYWRqZ3BpeHNyY3I4YjZ1eXc0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/R9mgVlsCuv6XCDK8Lb/giphy.gif" alt="Soutenir Kevin Benabdelhak pour développer des plugins WordPress" style="width:100%;" />
+</a>
